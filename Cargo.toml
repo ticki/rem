@@ -1,0 +1,11 @@
+[package]
+name = "rem"
+version = "0.1.0"
+authors = ["ticki <ticki@users.noreply.github.com>"]
+
+[dependencies]
+termion = "1"
+
+[dependencies.clap]
+version = "2"
+features = ["color"]

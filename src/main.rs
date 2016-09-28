@@ -69,10 +69,6 @@ fn main() {
              .multiple(true)
              .empty_values(false)
              .help("Make the progress bar NUMBER long."))
-        .arg(clap::Arg::with_name("noblink")
-             .short("B")
-             .long("noblink")
-             .help("No blink when it's done."))
         .get_matches();
 
     let stdout = io::stdout();
